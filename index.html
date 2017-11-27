@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Psychometrics</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/bootstrap-slider.min.css" rel="stylesheet">
+    <style type="text/css">
+      .sslider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.sslider:hover {
+    opacity: 1;
+}
+
+.sslider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.sslider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+    </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">PSYCHOMETRICS</a>
+        <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <!-- <span class="navbar-toggler-icon"></span> -->
+        <!-- </button> -->
+        <!-- <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto"> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="cms/">Admin</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li> -->
+         <!--  </ul>
+        </div> -->
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>Know yourself better</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <!-- <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p> -->
+            <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Fill out the form</h2>
+            <hr class="light my-4">
+            <!-- <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p> -->
+            <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
+            <form>
+                <div class="form-group text-white" id="form-box">
+                    <p>
+                        Dear Participant,<br>
+Welcome to the world of your own. We are going to show you some questions related to your daily lives. You are required to drag the point in horizontal bar to give your response. This is a 100 point scale. You are free to drag the point depending on your agreeableness to the statement. You need to complete the test at one go. Ready? Start.
+                    </p>
+                    <input type="text" name="NAME" id="name-data" class="form-control" placeholder="Name" required="true">
+                    <br>
+                    <input type="text" name="EMAIL" id="email-data" class="form-control" placeholder="Email" required="true">
+                    <br>
+                    <input type="text" name="AGE" id="age-data" class="form-control" placeholder="Age" required="true">
+                    <br>
+                    <select name="GEN" id="gen-data" class="form-control"  required="true">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    <br>
+                    <input type="text" name="QUAL" id="qual-data" class="form-control" placeholder="Qualification" required="true">
+                    <br>
+                    <input type="text" name="INST" id="inst-data" class="form-control" placeholder="Institute" required="true">
+                    <br>
+                    <input type="text" name="OCC" id="occ-data" class="form-control" placeholder="Occupation" required="true">
+                    <input type="hidden" id="count" value="multiple">
+                    
+               <!--   -->
+                </div>              
+            </form>
+                <div class="form-group">
+                    <button class="btn btn-success" id="submit1">NEXT</button>
+                    <button class="btn btn-success text-center" id="submit2" style="display: none">NEXT</button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <hr class="my-4">
+            <p class="mb-5">For any queries, Contact Dr R K Biswal below!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p>+91 9438431948</p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a href="mailto:biswalrk@nitrkl.ac.in">biswalrk@nitrkl.ac.in</a>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            
+            <hr class="my-4">
+            <p class="mb-5">Developed by Monik Raj Behera</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+    <script src="js/bootstrap-slider.min.js"></script>
+
+    <script type="text/javascript">
+     
+
+     
+
+     $('#data').slider({
+  formatter: function(value) {
+    return 'Current value: ' + value;
+  },
+  tooltip : 'always'
+});
+
+
+function val(x) {
+    document.getElementById('VL').innerHTML = x;
+}
+    
+    </script>
+
+    <script type="text/javascript">
+        $("#submit1").click(function() {
+            var Name = $("#name-data").val();
+            var Email = $("#email-data").val();
+            var Age = $("#age-data").val();
+            var Sex = $("#gen-data").val();
+            var Qualification = $("#qual-data").val();
+            var Institute = $("#inst-data").val();
+            var Occupation = $("#occ-data").val();
+            $.post("data-endpoint-first.php",
+                {
+                    name: Name,
+                    age: Age,
+                    email: Email,
+                    sex: Sex,
+                    qualification : Qualification,
+                    institute : Institute,
+                    occupation : Occupation
+                },
+                function(data, status) {
+
+                    var res = JSON.parse(data);
+                    var m = res.current;
+                        var n = res.total;
+                    var text = '<div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="'+(m/n)*100+'" aria-valuemin="0" aria-valuemax="100" style="width:'+(m/n)*100+'%"></div></div><br><label id="label">'+res.q+'</label><br><p id="VL">50</p>&nbsp;&nbsp;<input id="data" oninput="val(this.value)" type="range" min="1" max="100" value="50" class="sslider"/><input type="hidden" id="count" value="single">       <input type="hidden" id="id" value="'+res.id+'"><br>';
+                    $("#form-box").html(text);
+
+                    $("#submit1").remove();
+                    document.getElementById('submit2').style.display = 'block';
+
+                });
+        });
+
+
+
+        $("#submit2").click(function() {
+            var val = $("#data").val();
+            var id = $("#id").val();
+            $.post("data-endpoint-second.php",
+                {
+                    Value : val,
+                    Id : id
+                },
+                function(data, status) {
+
+                    var res = JSON.parse(data);
+
+                    if(res.q!='Finished'){
+                        var m = res.current;
+                        var n = res.total;
+                        var text = '<div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="'+(m/n)*100+'" aria-valuemin="0" aria-valuemax="100" style="width:'+(m/n)*100+'%"></div></div><br><label id="label">'+res.q+'</label><br><p id="VL">50</p>&nbsp;&nbsp;<input id="data" oninput="val(this.value)" type="range" min="1" max="100" value="50" class="sslider"/><input type="hidden" id="count" value="single">       <input type="hidden" id="id" value="'+res.id+'">';
+                            $("#form-box").html(text);
+                    }
+                    else{
+                        var text = '<label id="label">'+res.q+'</label><br>';
+                            $("#form-box").html(text);
+                            document.getElementById('submit2').style.display = 'none';
+                    }
+                    
+                });
+        });
+    </script>
+
+  </body>
+
+</html>
